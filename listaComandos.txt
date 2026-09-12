@@ -1,3 +1,9 @@
 git clone: El comando git clone sirve para descargar una copia exacta y completa de un repositorio remoto (como un proyecto alojado en GitHub o GitLab) en tu ordenador local, incluyendo todos sus archivos, carpetas e historial de versiones. Se utiliza principalmente para empezar a trabajar en un proyecto existente o unirse a un equipo de desarrollo, ya que además configura automáticamente la conexión con el servidor original (el enlace remoto llamado origin) para que puedas descargar actualizaciones (git pull) o subir tus propios cambios (git push) de forma sencilla en el futuro.
 
 El comando git commit sirve para guardar de forma permanente los cambios que has realizado en tus archivos dentro del historial de tu repositorio local, funcionando como una especie de "punto de control" o captura en el tiempo del estado de tu proyecto. Para registrar un commit con éxito, primero debes preparar los archivos que deseas incluir usando git add y luego ejecutar el comando acompañado de un mensaje descriptivo que explique qué se modificó, utilizando la sintaxis git commit -m "Tu mensaje aquí".
+
+El comando git push sirve para subir los commits guardados en tu repositorio local a un servidor remoto (como GitHub o GitLab), compartiendo tus cambios con el resto del equipo y actualizando el proyecto en la nube.
+
+El comando git status sirve para mostrar el estado actual de tu directorio de trabajo, indicándote de forma clara qué archivos han sido modificados, cuáles están listos para guardarse en el área de ensayo (staging area) y cuáles aún no están siendo rastreados por Git.
+
+El comando git add sirve para preparar los archivos modificados y guardarlos temporalmente en el área de ensayo (staging area), seleccionando exactamente qué cambios quieres que se incluyan en tu próximo "punto de control" o commit.
