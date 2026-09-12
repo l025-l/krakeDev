@@ -1,3 +1,4 @@
 Nombre: Cristian Dahua
-Edad: 26
 Hobby: leer 
+Pelicula favorita: piratas del caribe
+Comida favorita: papas fritas
